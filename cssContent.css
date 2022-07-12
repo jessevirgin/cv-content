@@ -45,7 +45,6 @@ color: red;
 @media screen and (max-width: 1200px) {
 .container {
 margin: 1em;
-font-size: 0.9em;
 }
 .container > .section {
 padding: 1em;
