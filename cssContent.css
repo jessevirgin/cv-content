@@ -15,7 +15,7 @@ margin: 2em;
 align-items: stretch;
 }
 .container > .section {
-font-size: 1em;
+font-size: 1.1em;
 line-height: 1.35em;
 flex: 0.4em;
 margin-left: 0.5em;
@@ -30,10 +30,11 @@ width: 100%;
 padding-bottom: 0.5em;
 }
 a {
-text-decoration: none;
+text-decoration: underline;
 color: black;
 text-align: left;
-padding: 12px 14px;
+color: rgb(189, 52, 52);
+transition: 0.5s linear;
 }
 a:hover {
 color: darkred;
@@ -44,6 +45,7 @@ color: red;
 @media screen and (max-width: 1200px) {
 .container {
 margin: 1em;
+font-size: 0.9em;
 }
 .container > .section {
 padding: 1em;
