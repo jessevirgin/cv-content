@@ -12,7 +12,8 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: column;
 margin: 2em;
-align-items: stretch;
+justify-content: center;
+align-items: center;
 }
 .container > .section {
 font-size: 1em;
